@@ -1,30 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
-.book, .join{
-    background-color: #880015;
-    text-decoration: none;
+
+#content{
+    max-width: 2000px;
 }
 
-.book:hover, .join:hover{
+#logo_link{
+    text-align: left;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.book, .join {
+/* button{ */
+    background-color: #cb939b;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color .15s;
+    margin-top: 50px;
+    border-radius: 5px;
+
+    
+}
+.book:hover, .join:hover {
     background-color: #A349A4; 
 }
-
-.button-box{
-    text-align: center;
+.book:active, .join:active {
+    opacity: .5; 
 }
 
 .msg{
     background-color: #FFAEC9; 
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+
+.msg p{
+    padding-bottom: 15px;
 }
 
 .icon{
-    width: 80px;
+    width: 120px;
+    padding: 30px;
+
 }
 
-#content{
-    max-width: 1600px;
-    text-align: center;
-}
+.home-title  { margin-top: 10px;}
 
+.card-img{
+    margin-top: 100px;
+    width: 40rem;
+    border: 15px solid rgb(53, 129, 32);
+    border-radius: 10px;
+}
 #hero-msg{
     text-align: center;
 }
@@ -38,21 +69,24 @@
     background-color: #FF7F27; 
 }
 
-#hero-box{
+#hero-img{
+    text-align: center;
     width: 100%;
-}
-
-logo_link{
-    width: 10px;
+    height: 30em;
 }
 
 nav a{
     text-align: center;
-    text-decoration: none;
+    font-family: 'Comic Neue';
+    font-weight: bold;
+    padding: 35px;
+
 }
 
 footer{
     background-color: #7092BE; 
+    padding: 25px 50px;
+
 }
 
 footer a{
@@ -60,7 +94,7 @@ footer a{
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }    
 
 footer p a:hover {
@@ -68,25 +102,55 @@ footer p a:hover {
 }   
                     
 h1{
-    text-align: center;
-} 
+    font-family: "Monsieur La Doulaise";
+    font-size: 4rem;} 
 
 h4{
+    font-family: 'Comic Neue';
+    font-weight: bold;
     text-align: center;
+}
+
+h2{
+    font-family: "Monsieur La Doulaise";
+    font-size: 3rem;
+}
+
+p{
+    font-family: 'Comic Neue';
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+    border: red;
+    border-width: 10px;
+}
+
 body{
     background-color: #99d9ea; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #4d6df3;
+    padding-bottom: 30px;
 }
 
 nav a:hover{
     background-color: #7F7F7F;
+    padding: 35px;
+
+}
+
+footer .social img {
+    padding-top: 15px;
 }
