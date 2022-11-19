@@ -13,7 +13,6 @@
 }
 
 .book, .join {
-/* button{ */
     background-color: #cb939b;
     color: black;
     font-weight: bold;
@@ -21,8 +20,7 @@
     transition: background-color .15s;
     margin-top: 50px;
     border-radius: 5px;
-
-    
+   
 }
 .book:hover, .join:hover {
     background-color: #A349A4; 
@@ -39,7 +37,7 @@
 }
 
 .msg p{
-    padding-bottom: 15px;
+    padding-bottom: 15px;   
 }
 
 .icon{
