@@ -83,6 +83,13 @@
     grid-template-rows: 1fr 3fr 1fr 1fr .5fr 2.5fr .5fr .5fr 1fr;
 }
 
+.home-grid2{
+    display: flex;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr 3fr 1fr 1fr .5fr 2.5fr .5fr .5fr 1fr;
+    margin: 20px; 
+}
+
 .card-img, .mountains {
     width: 100%;
 }
